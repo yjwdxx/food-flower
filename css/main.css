@@ -1,0 +1,173 @@
+html,body {
+    width: 100%;
+    height: 100%;
+
+
+}
+.header{
+    position:fixed;
+    height:65px;
+    width:100%;
+    top:-5px;
+    background-color:#D9A8A3; 
+    opacity:0.9;
+ 
+}
+.container {
+    width: 100%;
+    height: 500px;
+    position:relative;
+    top:-32px;
+    background: url(../img/foodone.jpg);
+    text-align: center;
+
+}
+.login{
+    height:50px;
+    width:90px;
+    font-size:15px;
+    position:relative;
+    top:-40px;
+    left:1200px;
+}
+.login a{
+    color:#fff;
+    text-decoration:none;
+    margin-right:5px;
+}
+.mask {
+    height: 50px;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 50px;
+    font-weight: normal;
+    font-size: 25px;
+}
+.mask img {
+    width: 36px;
+    height: 32px;
+    float: left;
+}
+.mask a {
+    color: #fff;
+    float: left;
+    display: block;
+    margin-left: 4px;
+    text-decoration:none;
+}
+a.mask_nav {
+    font-size: 15px;
+    line-height: 3;
+    margin-left: 27px;
+}
+.selectBox {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+.selectBox h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: normal;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+.selectBox input {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    outline: medium;
+}
+#content {
+    width: 558px;
+    height: 36px;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    background-color: rgba(0,0,0,.15);
+}
+input[type="button"]
+{
+    text-decoration: none;
+    width: 60px;
+    height: 40px;
+    left: 600px;
+    top: 300px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgba(0,0,0,.15);
+    cursor: pointer;
+}
+#stop {
+    left: 700px;
+    top: 300px;
+}
+input[type="button"]:hover {
+    background-color: rgba(0,0,0,.3);
+}
+.line {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.line:before, .line:after{
+    display: block;
+    position: absolute;
+    top: 28px;
+    width: 45%;
+    content: " ";
+    border-top: 1px solid #ededed;
+}
+.line:after{
+    right:0;
+}
+.line p{
+    width:150px;
+    height:30px;
+    position:relative;
+    top:15px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    color:#999;
+    font-size:15px;
+
+}
+.imgWarp{
+	width: 100%;
+	height: 150px;
+}
+.imgItem,.imgItem img{
+    position:relative;
+    width: 150px;
+    height: 100px;
+    float:left;
+}
+.imgItem{
+    top:20px;
+    left:80px;
+    margin-left:18px;
+    opacity:0.8;  
+    cursor:pointer;  
+
+}
+.imgItem img{
+    border:1px;
+    border-radius:10px; 
+   
+
+}
+.imgItem:hover{
+    opacity:1; 
+}
+.imgItem a{
+    position:relative;
+    top:-70px;
+    left:50px;
+    font-size:25px;
+    color:#fff;
+    text-decoration:none;  
+}
